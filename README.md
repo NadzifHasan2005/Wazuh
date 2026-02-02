@@ -1,4 +1,4 @@
-# Wazuh: Keamanan Komunikasi di jaringan 5G
+# Wazuh
 Alat yang digunakan adalah Ubuntu, Docker, dan Wazuh
 
 
