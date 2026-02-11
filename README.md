@@ -46,12 +46,25 @@ Kelebihan wazuh:
 
 ## 4. Virtual Machine yang digunakan
 a. Menggunakan 2 VM (Menggunakan Ubuntu versi 22.04)
-
+- VM Ubuntu Original (Belum diinstall apa-apa)
 - VM wazuh manager
 - VM Wazuh Agent
 
-
-
+b. Proses membuat 3 VM
+- VM Ubuntu Original (Belum diinstall apa-apa)
+Proses instalasi VM bisa klik link ini: https://youtu.be/rJ9ysibH768?si=vYbTyYqoQe3_Hybu
+- VM wazuh manager</br>
+  <img width="617" height="367" alt="image" src="https://github.com/user-attachments/assets/d816fa09-910b-434d-b901-099a2e8fcced" /></br>
+  Langkahnya:
+  - Klik VM Ubuntu original
+  - lalu klik clone
+  - Tunggu hingga selesai 
+- VM Wazuh Agent</br>
+  <img width="617" height="367" alt="image" src="https://github.com/user-attachments/assets/d816fa09-910b-434d-b901-099a2e8fcced" /></br>
+  Langkahnya:
+  - Klik VM Ubuntu original
+  - Lalu klik clone
+  - Tunggu hingga selesai 
 
 
 ## 5. Proses Instalasi Tools yang dipakai yang akan di Pakai di VM Wazuh Manager 
