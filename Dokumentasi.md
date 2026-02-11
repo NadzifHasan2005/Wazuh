@@ -27,6 +27,7 @@
 
 ## 2. Ensure noexec option set on /var/tmp partition<br>
 <img width="826" height="472" alt="ID 28508_Ensure noexec option set on var tmp partition" src="https://github.com/user-attachments/assets/26ad7807-435e-488a-af9f-f370735def08" />
+
 **ID**: 28508</br>
 **Target**: Command: findmnt --kernel /var/tmp</br>
 **Level**         : 1<br>
@@ -44,8 +45,49 @@
    ```
    <br><img width="707" height="52" alt="image" src="https://github.com/user-attachments/assets/9aa6f003-21b3-40b1-b21e-19fe68d366fb" />
    Jika seperti digambar, sudah berjalan dengan baik.
-
+4. Jika sudah, masukkan untuk merestart agent
    ```
    sudo systemctl restart wazuh-agent
    ```
+5. Hasilnya seperti dibawah ini</br>
+   <img width="823" height="36" alt="image" src="https://github.com/user-attachments/assets/c1eb86f5-da1a-48e1-bcca-565c1b37774b" />
+
+---
+
+## 3. Ensure AIDE is installed
+<img width="833" height="502" alt="ID 28526_Ensure AIDE is Installed" src="https://github.com/user-attachments/assets/f99437df-eb56-493f-aa57-ca7a8809dc0b" />
+
+**ID**: 28526</br>
+**Target**: Command: dpkg-query -s aide</br>
+**Level**         : 1<br>
+**Tujuan**        : Tujuannya  untuk mencegah atau membatasi paparan konfigurasi yang salah secara tidak sengaja atau disengaja, atau berkas biner yang dimodifikasi.</br>
+**Langkah-langkahnya**  :</br>
+1. Verifikasi terlebih dahulu, apakah sudah terinstall atau belum
+   ```
+   sudo dpkg-query -s aide &>/dev/null && echo "aide is installed"
+   ```
+   ```
+   sudo dpkg-query -s aide-common &>/dev/null && echo "aide-common is installed"
+   ```
+   Jika belum lanjut langkah ke 2
+2. Instalasi AIDE
+   ```
+   sudo apt install aide aide-common
+
+   ```
+3. Menginisialisasi AIDE:
+   ```
+   aideinit
+   ```
+   Fungsi `aidetinit` untuk membuat database awal (baseline) untuk AIDE.
+   ```
+    mv /var/lib/aide/aide.db.new /var/lib/aide/aide.db
+   ```
+   Fungsi `mv /var/lib/aide/aide.db.new /var/lib/aide/aide.db` untuk mengganti database lama dengan database baru.
+4. Jika sudah, masukkan untuk merestart agent
+   ```
+   sudo systemctl restart wazuh-agent
+   ```
+5. Hasilnya adalah
+   <img width="833" height="31" alt="image" src="https://github.com/user-attachments/assets/6e0919e4-8472-456e-b8e7-f0c4e591cdec" />
 
