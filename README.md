@@ -66,7 +66,7 @@ Proses instalasi VM bisa klik link ini: https://youtu.be/rJ9ysibH768?si=vYbTyYqo
   - Lalu klik clone
   - Tunggu hingga selesai 
 
-
+c. Kalau sudah selesai, lanjut instalasi tools yang digunakan di VM wazuh manager
 ## 5. Proses Instalasi Tools yang dipakai yang akan di Pakai di VM Wazuh Manager 
 https://github.com/NadzifHasan2005/Wazuh/blob/main/Instalasi%20Wazuh%20dan%20Docker_VM%20Wazuh%20Manager.md
 
