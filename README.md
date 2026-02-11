@@ -44,9 +44,16 @@ Kelebihan wazuh:
 2. Integrasi yang fleksibilitas
 3. Open-source
 
+## 4. Virtual Machine yang digunakan
+a. Menggunakan 2 VM (Menggunakan Ubuntu versi 22.04)
+
+- VM wazuh manager
+- VM Wazuh Agent
 
 
-4. Proses Instalasi Tools yang dipakai
+
+
+
+## 5. Proses Instalasi Tools yang dipakai yang akan di Pakai di VM Wazuh Manager 
 https://github.com/NadzifHasan2005/Wazuh/blob/main/Instalasi%20Wazuh%20dan%20Docker_VM%20Wazuh%20Manager.md
 
-5. Menambahkan Agent
