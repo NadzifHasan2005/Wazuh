@@ -47,6 +47,6 @@ Kelebihan wazuh:
 
 
 4. Proses Instalasi Tools yang dipakai
-https://github.com/NadzifHasan2005/Wazuh/blob/main/Instalasi%20Wazuh%20dan%20Docker.md
+https://github.com/NadzifHasan2005/Wazuh/blob/main/Instalasi%20Wazuh%20dan%20Docker_VM%20Wazuh%20Manager.md
 
 5. Menambahkan Agent
