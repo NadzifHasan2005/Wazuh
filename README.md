@@ -72,3 +72,6 @@ https://github.com/NadzifHasan2005/Wazuh/blob/main/Instalasi%20Wazuh%20dan%20Doc
 
 ## 6. Proses Menambahkan Agent di VM Wazuh Agent
 https://github.com/NadzifHasan2005/Wazuh/blob/main/AddAgent_VM%20Wazuh%20Agent.md
+
+## 7. Dokumentasi Wazuh
+https://github.com/NadzifHasan2005/Wazuh/blob/main/Dokumentasi.md
