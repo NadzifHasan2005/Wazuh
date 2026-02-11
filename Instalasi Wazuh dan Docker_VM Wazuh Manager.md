@@ -1,5 +1,5 @@
-# Langkah-Langkah install Docker dan wazuh, dan penggunaan wazuh di docker
-## 1.  Intall Docker
+## Langkah-Langkah install Docker dan wazuh, dan penggunaan wazuh di docker di VM Wazuh Manager
+### 1.  Intall Docker
 - Buat file bernama `docker.sh`, dengan menggunakan command
   ```
   nano docker.sh
@@ -53,7 +53,7 @@
 
 
 
-## 2. Install wazuh di dalam docker
+### 2. Install wazuh di dalam docker
 - Sebelum menginstall, wazuh install terlebih dahulu `git`. Dengan command
   ```
   sudo apt install git -y
@@ -86,3 +86,5 @@
   Password    = `SecretPassword`
 - Jika tampilan sudah seperti dibawah ini, berarti anda sudah berhasil🥳🥳🎉🎉
   <img width="1918" height="905" alt="image" src="https://github.com/user-attachments/assets/31bb8e37-e2f5-4f19-b201-44ba3a845f29" />
+
+
