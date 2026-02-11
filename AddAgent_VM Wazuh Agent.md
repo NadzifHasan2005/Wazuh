@@ -30,3 +30,16 @@ Untuk menambahkan group seperti dibawah, bisa ikuti langkah dibawah
 <img width="1836" height="242" alt="image" src="https://github.com/user-attachments/assets/2e19a3bb-4734-44e2-b73f-ce39c2da9834" />
 Hasilnya:</br>
 <img width="577" height="323" alt="image" src="https://github.com/user-attachments/assets/2ccf1ca4-f9cd-4ea4-aabc-637c1c4c45b2" />
+
+## Langkah 5:
+Salin yang dikotak merah,</br>
+<img width="588" height="417" alt="image" src="https://github.com/user-attachments/assets/24a2b39a-ab72-4b13-99ae-a13a7a9d7b5e" /></br>
+Lalu jalankan di **VM Wazuh Agent**, lalu paste
+
+## Langkah 6:
+Jika berhasil, akan seperti dibawah:</br>
+<img width="1246" height="207" alt="Langkah-6" src="https://github.com/user-attachments/assets/c141c375-f97f-4f9e-b197-1831f9024281" />
+
+Ingin lebih lengkap, bisa klik link ini:
+https://youtu.be/1s2yu2ClbGM?si=nvpLNV1qCeQAYooc
+
